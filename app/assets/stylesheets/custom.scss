@@ -52,6 +52,23 @@ footer ul li {
   margin-left: 15px;
 }
 
+@media (max-width: 800px) {
+  footer {
+    text-align: center;
+    small {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    ul {
+      text-align: center;
+      li {
+        display: inline;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
 /* typography */
 
 h1,
