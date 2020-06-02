@@ -54,16 +54,22 @@ footer ul li {
 
 @media (max-width: 800px) {
   footer {
+    padding: 0;
     text-align: center;
     small {
+      display: inline-block;
       margin-top: 1em;
-      margin-bottom: 1em;
+      margin-bottom: 5px;
+      float: none;
     }
     ul {
+      display: block;
+      margin: 5px auto;
+      width: 80%;
       text-align: center;
       li {
         display: inline;
-        margin-left: 15px;
+        margin-left: 5px;
       }
     }
   }
