@@ -19,7 +19,7 @@
         <ul class="dropdown-menu">
         <% if logged_in? %>
           <li><%= link_to "Profile", current_user %></li>
-          <li><%= link_to "Settings", '#' %></li>
+          <li><%= link_to "Settings", edit_user_path(current_user) %></li>
         <% else %>
           <li><%= link_to 'How it Works', about_path %></li>
         <% end %>
