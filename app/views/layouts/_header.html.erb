@@ -16,6 +16,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
           <%= current_user ? 'Account' : 'Help'  %> <b class="caret"></b>
         </a>
+        <%= link_to "Students", users_path %>
         <ul class="dropdown-menu">
         <% if logged_in? %>
           <li><%= link_to "Profile", current_user %></li>
